@@ -1,0 +1,7 @@
+[defaults]
+project=testing-project
+org=kamil-ogorek
+
+[auth]
+token=YO-TOKEN
+

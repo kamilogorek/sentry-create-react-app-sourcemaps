@@ -2,7 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+function missingFunction() {
+  throw new Error('whoops');
+}
+
 function App() {
+  missingFunction();
+
   return (
     <div className="App">
       <header className="App-header">
